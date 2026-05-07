@@ -26,7 +26,7 @@ MeCab ユーザー辞書にアクセント情報を追加・管理するスタ�
 
 ### 連携リポジトリ
 
-[Qwen3-TTS-JP-MeCab](https://github.com/daibo0501/Qwen3-TTS-JP-MeCab) と連携して使用します。  
+[Qwen3-TTS-JP-MeCab](https://github.com/mark10als/Qwen3-TTS-JP-MeCab) と連携して使用します。  
 このツールで生成した `mecab_accent.dic` を Qwen3-TTS-JP-MeCab が自動検出して使用します。
 
 ---
@@ -61,7 +61,7 @@ MeCab ユーザー辞書にアクセント情報を追加・管理するスタ�
 ### ステップ 2: リポジトリのクローン
 
 ```bash
-git clone https://github.com/daibo0501/MeCab_accent_tool.git
+git clone https://github.com/mark10als/MeCab_accent_tool.git
 cd MeCab_accent_tool
 ```
 
