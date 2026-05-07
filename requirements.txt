@@ -1,0 +1,25 @@
+# MeCab アクセント辞書エディタ — 必要パッケージ
+#
+# インストール方法:
+#   install_packages.bat をダブルクリック
+# または手動で:
+#   C:\Users\DAIBO\AppData\Local\Programs\Python\Python310\python.exe -m pip install -r requirements.txt
+
+# UI フレームワーク
+gradio>=4.0
+
+# MeCab Python バインディング（Windows 版）
+# 別途 MeCab 本体のインストールが必要:
+#   https://github.com/ikegami-yukino/mecab/releases
+mecab-python3>=1.0
+
+# 日本語 TTS 前処理・アクセント解析
+# pyopenjtalk-plus (tsukumijima フォーク):
+#   marine がインストール済みの場合、自動的に高精度モードで動作
+pyopenjtalk-plus
+
+# DNN アクセント予測（pyopenjtalk-plus のオプション依存）
+# インストール時は文字コードエラー回避のため PYTHONUTF8=1 が必要:
+#   set PYTHONUTF8=1
+#   pip install marine
+marine
